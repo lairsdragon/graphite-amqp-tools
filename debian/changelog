@@ -1,3 +1,9 @@
+graphite-amqp-tools (0.1-2) unstable; urgency=low
+
+  * checkin to repo
+
+ -- Steffen Weinreich <steffen.weinreich@ic3s.de>  Mon, 05 Aug 2013 15:14:13 +0200
+
 graphite-amqp-tools (0.1-1ubuntu1) precise; urgency=low
 
   * Initial release 
