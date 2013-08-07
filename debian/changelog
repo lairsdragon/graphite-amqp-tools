@@ -1,4 +1,4 @@
-graphite-amqp-tools (0.1-1ubuntu2) unstable; urgency=low
+graphite-amqp-tools (0.2-1) unstable; urgency=low
 
   * fixed parsing of metrics in scientic notation (eg 3.70046e+06)
 
