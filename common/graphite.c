@@ -26,6 +26,7 @@
 #define	UNDERSCORE	"_"
 #define	MINUS		"-"
 #define	PERIOD		"."
+#define	POWER		"e+"
 
 /* Returns < 0 on error, >= 0 on success with > 0 indicating length of key
  * if it wasn't passed separately
@@ -62,7 +63,7 @@ graphite_parse(char *key, char *line)
 	/* At this point, we're just concerned with the value and timestamp */
 
 	/* Scan the metric value */
-	if ((len = strspn(ptr, DIGITS MINUS PERIOD)) == 0)
+	if ((len = strspn(ptr, DIGITS MINUS PERIOD POWER)) == 0)
 		goto bad;
 	ptr += len;
 
